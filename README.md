@@ -58,6 +58,7 @@ This section will show any installed modules you add from the Storyboard Modules
 - [react-native-articles](modules/articles)
 - [camera]()
 - [react-native-app-menu](modules/app-menu)
+- [privacy-policy]()
 
 # Getting started: Frontend
 
