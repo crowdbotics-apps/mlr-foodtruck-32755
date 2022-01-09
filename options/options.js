@@ -38,17 +38,20 @@ const styles = StyleSheet.create({
     fontSize: 16
   }
 })
+
 export const globalOptions = {
   name: "mlr_foodtruck_32755",
   url: "https://mlr_foodtruck_32755.botics.co",
   api: "https://mlr_foodtruck_32755.botics.co/api/v1"
 }
+
 export const modulesOptions = {
   "@modules/app-menu": {
     title: "App Menu",
     copy: "Routes available!",
     styles: styles
   },
+
   undefined: {
     LOGO_URL:
       "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/cb-icon.png",
@@ -61,6 +64,7 @@ export const modulesOptions = {
     SignInButtonText: "Login",
     SignUpButtonText: "Sign Up"
   },
+
   "@modules/login": {
     LOGO_URL:
       "https://crowdbotics-slack-dev.s3.amazonaws.com/media/project_component_resources/cb-icon.png",
@@ -72,5 +76,6 @@ export const modulesOptions = {
     SignUpNavText: "Sign Up",
     SignInButtonText: "Login",
     SignUpButtonText: "Sign Up"
-  }
+  },
+  "@modules/camera": { buttonText: "+ Take Photo", styles: styles }
 }
