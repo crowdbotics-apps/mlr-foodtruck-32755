@@ -960,9 +960,6 @@
 "@modules/articles@file:./modules/articles":
   version "1.0.0"
 
-"@modules/articles@file:./modules/articles/":
-  version "1.0.0"
-
 "@modules/camera@file:./modules/camera":
   version "1.0.1"
   dependencies:
@@ -984,6 +981,9 @@
     react-native-keyboard-aware-scroll-view "^0.9.3"
 
 "@modules/maps@file:./modules/maps":
+  version "1.0.0"
+
+"@modules/maps@file:./modules/maps/":
   version "1.0.0"
 
 "@modules/privacy-policy@file:./modules/privacy-policy":
